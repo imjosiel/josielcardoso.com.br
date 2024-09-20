@@ -1,16 +1,11 @@
 import clsx from "clsx";
-import Price from "./price";
 import { ArrowBigRightDash } from "lucide-react";
 
 const Label = ({
   title,
-  amount,
-  currencyCode,
   position = "bottom",
 }: {
   title: string;
-  amount: string;
-  currencyCode: string;
   position?: "bottom" | "center";
 }) => {
   return (
@@ -29,12 +24,6 @@ const Label = ({
         <h3 className="flex-none rounded-full bg-blue-600 p-2 text-white">
           <ArrowBigRightDash />
         </h3>
-        {/* <Price
-          className="flex-none rounded-full bg-blue-600 p-2 text-white"
-          amount={amount}
-          currencyCode={currencyCode}
-          currencyCodeClassName="hidden @[275px]/label:inline"
-        /> */}
       </div>
     </div>
   );

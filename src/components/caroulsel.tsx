@@ -6,12 +6,6 @@ export async function Caroulsel() {
     {
       handle: "PratoPrime",
       title: "Prato Prime",
-      priceRange: {
-        maxVariantPrice: {
-          amount: "29.99",
-          currencyCode: "BRL",
-        },
-      },
       featuredImage: {
         url: "/screenshots/1.png",
       },
@@ -19,12 +13,6 @@ export async function Caroulsel() {
     {
       handle: "MustacheBarber",
       title: "Mustache Barber",
-      priceRange: {
-        maxVariantPrice: {
-          amount: "49.99",
-          currencyCode: "USD",
-        },
-      },
       featuredImage: {
         url: "/screenshots/2.png",
       },
@@ -32,12 +20,6 @@ export async function Caroulsel() {
     {
       handle: "EasyBox",
       title: "EasyBox",
-      priceRange: {
-        maxVariantPrice: {
-          amount: "19.99",
-          currencyCode: "USD",
-        },
-      },
       featuredImage: {
         url: "/screenshots/3.png",
       },
@@ -66,9 +48,6 @@ export async function Caroulsel() {
                   alt={product.title}
                   label={{
                     title: product.title,
-                    amount: product.priceRange.maxVariantPrice.amount,
-                    currencyCode:
-                      product.priceRange.maxVariantPrice.currencyCode,
                   }}
                   src={product.featuredImage.url}
                   fill

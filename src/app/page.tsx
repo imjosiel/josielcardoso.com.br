@@ -66,7 +66,7 @@ export default function Home() {
           <Image
             className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark"
             src="/photoroom.png"
-            alt="Next.js Logo"
+            alt=" "
             // width={180}
             width={360}
             // height={37}

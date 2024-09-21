@@ -75,7 +75,7 @@ export default function Home() {
       </div>
       <Carousel />
       <Image
-        className="relative"
+        className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70]"
         src="/Photoroom.webp"
         alt=" "
         width={180}

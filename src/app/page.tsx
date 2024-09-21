@@ -74,7 +74,14 @@ export default function Home() {
         </div>
       </div>
       <Carousel />
-      <Image src="/Photoroom.webp" alt=" " width={180} height={37} priority />
+      <Image
+        className="relative"
+        src="/Photoroom.webp"
+        alt=" "
+        width={180}
+        height={37}
+        priority
+      />
     </div>
   );
 }
